@@ -1,0 +1,384 @@
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 1000px;
+    background-image: url('../img/header_bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+nav{
+    height: 150px;
+  
+}
+h2{
+color: #fff;
+font-size: 90px;
+font-weight: 700;
+}
+.navigation{
+    padding-top: 50px;
+}
+.navbar-default {
+    border: none;
+    background: transparent;
+}
+.navbar-default .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #000;
+
+}
+.menu{
+    float: right;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    color: #000;
+    background: transparent;
+    border-top: 2px solid #ff6033;
+    margin-top: -2px;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+
+        color: #000;
+        background: transparent;
+        border-top: 2px solid #ff6033;
+        margin-top: -2px;
+    }
+
+
+.intro{
+    position: absolute;
+    top:350px;
+    
+}
+.intro h1{
+    
+    font-weight: 900;
+    font-size: 60px;
+
+}
+
+.intro p{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.get_free{
+    width: 200px;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #ff6033;
+    color: #fff;
+    border-radius: 0;
+    height: 50px;
+    transition: 0.3s linear;
+}
+.get_free:hover{
+    border: 1px solid #ff6033;
+    color: #ff6033;
+    background: #fff;
+}
+button{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+.scroll{
+    position: absolute;
+    top: 900px;
+    left: 940px;
+    background-image: url('../img/scroll.png');
+    height: 40px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;  
+}
+
+.about{
+    height: 650px;
+    background: #00b1b1;
+}
+.about_text{
+    float: right;
+    margin-top: 120px;
+}
+.about_text p{
+    font-size:17px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.services{
+    height: 700px;
+    background: #70bfff;
+}
+
+.tomato{
+    position: absolute;
+    top: 1800px;
+    right: 450px;
+}
+
+.services h2{
+    position: absolute;
+    top: 2000px;
+    right: 400px
+}
+
+.services_buttons{
+    width: 400px;
+    padding-top: 200px;
+
+}
+.service{
+    max-width: 400px;
+    height: 100px;
+    background-color: #fff;
+    padding: 25px;
+    width: 400px;
+    margin: 10px;
+    display: flex;
+}
+.service_icon{
+    float: right;
+    position: relative;
+   
+}
+
+.service p{
+    padding-top: 5px;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    background: #ffe92f;
+    height: 1400px;
+
+}
+
+.gallery h2{
+    color: #000;
+    margin-top: 0;
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+.gallery .container{
+position: relative;
+top: 120px;
+}
+.gallery .container p{
+    width: 570px;
+    left: 0;
+    right: 0;
+    margin:auto;
+    display: table;
+}
+.gallery img{
+    margin-bottom: 20px;
+}
+
+.view_more{
+    width: 200px;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #5585a2;
+    color: #fff;
+    border-radius: 0;
+    height: 50px;
+    transition: 0.3s linear;
+    left: 0;
+    right: 0;
+    display: table;
+    margin-top: 40px;
+    margin:auto;
+}
+.view_more:hover{
+    border: 1px solid #5585a2;
+    color: #5585a2;
+    background: #ffe92f;
+}
+
+.subscribe{
+    height: 500px;
+    background-image: url('../img/subscribe_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+}
+
+.subscribtion{
+    margin: 100px 0;
+    height: 300px;
+}
+
+.sub{
+    width: 200px;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #96b92c;
+    color: #fff;
+    border-radius: 0;
+    height: 50px;
+    transition: 0.3s linear;
+   margin-left: 25px;
+}
+
+.sub:hover{
+    border: 1px solid #96b92c;
+    color: #96b92c;
+    background: #fff;
+}
+
+#emailAddress{
+    width: 60%;
+    height: 50px;
+    padding: 5px;
+}
+
+.blog{
+    height: 800px;
+    background: #b07cf7;
+}
+
+.blog h2{
+    text-align: center;
+}
+
+.blog_post h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.blog_post p{
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.post_date{
+ background:    rgba(0,0,0,.5);
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ 
+}
+.post_date p{
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+    text-align: center;
+}
+
+.post_date p:nth-child(1){
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.post_date p:nth-child(2){
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.post_bottom{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom,transparent 0,#000 100%);
+    width: 100%;
+    height: 150px;
+    
+}
+
+.post_title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 55px;
+    left: 30px;
+    width: 300px;
+}
+
+.post_footer{
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.post_body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.post{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #555;
+}
+
+.post_bg{
+    position: relative;
+    display: block;
+    transition: all .4s linear;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,.4);
+    transition: all .4s ease-in-out;
+}
+}
